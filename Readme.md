@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Юлия Дунаева](https://up.htmlacademy.ru/htmlcss-individual/1/user/1013703).
-* Наставник: `Андрей Изосимов`.
+* Наставник: [Андрей Изосимов](https://htmlacademy.ru/profile/id605037).
 
 ---
 
