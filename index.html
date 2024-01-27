@@ -8,7 +8,7 @@
 <header class="main-header">
   <nav class="navigation">
     <a class="main-header-logo">
-      <img src="#" width="140" height="70" alt="Логотип города Седона">
+      <img src="#"  alt="Логотип города Седона">
     </a>
     <ul class="navigation-list">
       <li class="navigation-item" current>
@@ -102,17 +102,44 @@
  <section class="subscribe">
   <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
   <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-  <form class="subsrcibe-form" action="#">
-    <input type="email" name="email" placeholder="Ваш email">
-    <button class="subscribe-button" type="subnit">Подписаться</button>
+  <form class="subscribe-form" action="#" method="post">
+    <label for="subscribe-email">Email</label>
+    <input class="field"  placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email" required>
+    <button class="button subscribe-button" type="submit">
+      <span>Подписаться</span>
+    </button>
   </form>
   <img href="#" class="subscribe-background" alt="Горный пейзаж">
  </section>
 </main>
-<footer>
-<ul>
-
-</ul>
+< class="main-footer">
+  <section class="footer-social">
+    <h2 class="visually-hidden">Связаться с нами в соцсетях</h2>
+    <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="button" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">ВКонтакте</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="https://t.me/htmlacademy">
+          <span class="visually-hidden">Телеграм</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+          <span class="visually-hidden">Youtube</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <a class="phone" href="tel:+7(812)812-12-12">
+    <span class="phone-number">+7(812)812-12-12</span>
+  </a>
+  <a class="htmlacademy-referral" href="https://htmlacademy.ru/>"
+    <img class="htmlacademy-referral-logo" src="#" alt="Логотип htmlacademy">
+     <span class="visually-hidden">Ссылка на сайт htmlacademy</span>
+  </a>
 </footer>
   </body>
 </html>
