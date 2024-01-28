@@ -40,7 +40,53 @@
   </nav>
 </header>
 <main class="main-catalog">
-
+<section class="catalog-search">
+<h1 class="primary-title">Гостиницы</h1>
+<ul class="breadcrumbs-list">
+  <li class="breadcrumbs-item">
+   <a href="./index"><span class="visually-hidden">Home</span></a>
+  </li>
+  <li class="breadcrumbs-item">
+    <a href="#">Гостиницы</a>
+  </li>
+</ul>
+<form action="#" method="get">
+  <fieldset>
+    <legend>Инфрастурктура:</legend>
+    <div class="wrapper">
+      <label><input type="checkbox" name="facilities" checked value="Бассейн">Бассейн</label>
+      <label><input type="checkbox" name="facilities" checked value="Парковка">Парковка</label>
+      <label><input type="checkbox" name="facilities" value="WI-FI">WI-FI</label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Тип Жилья:</legend>
+    <div class="wrapper">
+      <label><input type="radio" name="facilities" checked value="Гостиница">Гостиница</label>
+      <label><input type="radio" name="facilities" value="Мотель">Мотель</label>
+      <label><input type="radio" name="facilities" value="Аппартаменты">Аппартаменты</label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <div class="wrapper">
+      <div class="cost">
+        <input type="number" min="0" max="9000" step="1" placeholder="0">
+        <input type="number" min="0" max="9000" step="1" placeholder="9000">
+      </div>
+      <div class="cost-range">
+        <button type="button"></button>
+        <button type="button"></button>
+        <span class="range-min"></span>
+        <span class="range-max"></span>
+      </div>
+    </div>
+  </fieldset>
+  <div class="wrapper-buttons">
+    <button type="submit"></button>
+    <button type="reset"></button>
+  </div>
+</form>
+</section>
 
 </main>
 <footer class="main-footer">
